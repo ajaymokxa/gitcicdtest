@@ -1,0 +1,23 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {"width": "100%"}
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "label": "Section",
+            "id": "section1"
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Team Details",
+        "description": "This form is created to store the details of the team working on a project",
+        "id": "team_details",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "team_details"
+    }
+}
